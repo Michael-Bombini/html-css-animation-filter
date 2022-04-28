@@ -337,6 +337,8 @@
 
 /* tredicesimo esercizio */
 
+
+
 .ex-13-button:hover .ex-13-top-white {
     animation: btn-due-top 2s linear infinite;
 }
@@ -345,92 +347,113 @@
     animation: btn-due-bottom 2s linear infinite;   
 }
 
+
+
 @keyframes btn-due-top {
 
     10% {
       left: 20%;
+      top: -10px;
     }
 
     20% {
         left: 40%;
+        top: -10px;
     }
 
     30% {
         left: 60%;
+        top: -10px;
     }
 
     40% {
         left: 80%;
+        top: -10px;
     }
     
     50% {
-        right: 90%;
+        left: 100%;
+        top: -10px;
     }
 
     60% {
-        left: 80%;
+        left: 100%;
+        top: 50%;
     }
 
     70% {
-        left: 60%;
+        left: 100%;
+        top: 100%;
     }
-
+    
     80% {
-        left: 40%;
+        left: 100%;
+        top: 50%;
     }
 
     90% {
-        left: 20%;
+        left: 100%;
+        top: -10px;
     }
 
     100% {
-        left: 10%;
+        left: 100%;
+        top: -10px;
     }
-    
-    
 
 }
 
 @keyframes btn-due-bottom {
 
     10% {
-        right: 20%;
+        right :  20%;
+        bottom:  -10px;
       }
   
       20% {
-          right: 40%;
+        right :  40%;
+          bottom:  -10px;
       }
   
       30% {
-          right: 60%;
+        right :  60%;
+        bottom :  -10px;
       }
   
       40% {
-          right: 80%;
+        right :  80%;
+        bottom :  -10px;
       }
       
       50% {
-          right: 90%;
+        right :  100%;
+          bottom : -10px;
       }
   
       60% {
-          right: 80%;
+          right : 100%;
+        bottom :  50%;
       }
   
       70% {
-          right: 60%;
+        right :  100%;
+        bottom :  100%;
       }
-  
+      
       80% {
-          right: 40%;
+          right : 100%;
+          bottom : 50%;
       }
   
       90% {
-          right: 20%;
+        right :  100%;
+          bottom : -10px;
       }
   
       100% {
-          right: 10%;
+          right : 100%;
+          bottom : -10px;
       }
+   
       
-}
+} 
